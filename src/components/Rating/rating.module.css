@@ -1,0 +1,16 @@
+.btn{
+    @apply bg-slate-700 w-12 h-12 rounded-full text-gray-500 font-medium;
+}
+
+.btn:hover{
+    @apply bg-Medium-Grey text-pure-White;
+}
+.btn:focus{
+    @apply bg-Orange text-pure-White;
+}
+.submitBtn{
+   @apply text-pure-White bg-Orange mt-5 p-[9px] rounded-[50px] w-full font-medium;
+}
+.submitBtn:hover{
+    @apply bg-pure-White text-Orange ;
+}
